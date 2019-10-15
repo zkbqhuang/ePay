@@ -1,0 +1,15 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':api')
+    implementation project(':rpcframework')
+    implementation 'io.netty:netty-all:4.1.13.Final'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"

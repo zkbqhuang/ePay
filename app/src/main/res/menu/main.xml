@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/addHost"
+          android:title="添加主机地址"
+          android:icon="@drawable/add_menu"
+          app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/alive_info"
+          android:icon="@drawable/alive_icon"
+          android:title="存活服务列表"
+          app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/about"
+          android:icon="@drawable/about_icon"
+          android:title="关于"
+          app:showAsAction="never"/>
+
+</menu>

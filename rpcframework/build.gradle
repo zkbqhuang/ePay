@@ -1,0 +1,9 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'io.netty:netty-all:4.1.13.Final'
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"
